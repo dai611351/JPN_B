@@ -1,12 +1,5 @@
 
-.header{
-    background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items:center;
-    padding: 20px ;
-    width: 1700px;
-}
+
 .header a{
     text-decoration: none;
     font-size: 130%;
@@ -17,12 +10,7 @@ h1{
     width: 80%;
     
 }
-.projeck{
-    color:white;
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-}
+
 .home{
     color: white;
 }
@@ -64,4 +52,18 @@ img{
 }
 .footer{
     text-align: center;
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    padding: 20px ;
+    width: 1700px;
+}
+.projeck{
+    color:white;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
 }
