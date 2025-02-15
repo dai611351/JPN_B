@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+
+.task2{
+    padding: 0 100px 0 100px;
+}
+
+.task2 .task2_text{
+    width: 500px;
+    text-align: left;
+    line-height: 55px;
+    opacity: 0.5;
+}
+.task1 .task1_text{
+    width: 500px;
+    text-align: left;
+    line-height: 55px;
+    opacity: 0.5;
+}
+.task1{
+    padding: 0 100px 0 100px;
+}
+.task2_text button{
+    text-align: center;
+}
+
+}
+.headding{
+    text-align: center;
+    display: flex;
+    width: 68%;
+    height: auto;
+    border-top: 1px solid rgb(238, 232, 232);
+    border-right: 1px solid black;
+    padding: 0 40px 0 40px;
+}
+.task1{
+    border-right: 1px solid rgb(238, 232, 232);
+    padding: 80px;
+    
+}
