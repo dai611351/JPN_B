@@ -28,10 +28,10 @@
 .headding{
     text-align: center;
     display: flex;
-    width: 68%;
+    width: 100%;
     height: auto;
-    border-top: 1px solid rgb(238, 232, 232);
-    border-right: 1px solid black;
+    border-top: 1px solid rgb(11, 236, 29);
+    border-right: 1px solid rgb(184, 3, 3);
     padding: 0 40px 0 40px;
 }
 .task1{
