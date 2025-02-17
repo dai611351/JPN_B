@@ -65,7 +65,7 @@
             flex-wrap: nowrap;
             flex-direction: column;
             opacity: 0.5;
-            .chill {
+            .room {
                 display: flex;
                 flex-wrap: nowrap;
                 background-color: #888686;
