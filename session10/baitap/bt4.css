@@ -1,0 +1,26 @@
+.main{
+    background-color: wheat;
+    width: 800px;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+.container{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding: 50px;
+}
+.img img{
+    border-radius: 50%;
+}
+button{
+    border: none;
+    background-color: pink;color: white;
+    padding: 10px;
+}
+a{
+    text-decoration: none; 
+}

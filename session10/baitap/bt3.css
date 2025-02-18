@@ -1,0 +1,67 @@
+.header{
+    width: 330PX;
+    height: 500px;
+    position: relative;
+    border: 1px solid burlywood;
+    background-color: bisque;
+    left: 450px;
+    
+}
+.tong{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    left: 1;
+
+}
+.img{
+    img{
+        border-radius: 10px;
+    }
+}
+.avata{
+    
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    
+}
+.name{
+    position: relative;
+    bottom: 220px;
+  color: aliceblue;
+  left: 220px;
+}
+button{
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid beige;
+    
+}
+.viet{
+    opacity: 0.5;
+    position: relative;
+    top: 10px;
+    left: 15px;
+
+}
+.main{
+    left: 15px;
+    
+    position: relative;
+    top: 10px;    
+p{
+    opacity: 0.5;
+
+}
+}
