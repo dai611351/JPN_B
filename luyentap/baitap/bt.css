@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.all {
+    width: 2000px;
+    height: 2000px;
+    background-color: antiquewhite;
+}
+
+.head {
+    justify-content: center;
+    gap: 10px;
+    width: 1440px;
+    height: 48px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex
+}
+
+.head .header {
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.head .button {
+    display: flex;
+    align-items: center;
+    gap: 650px;
+
+    a {
+        color: aliceblue;
+
+    }
+}
+
+.head .language {
+
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 350px;
+}
+
+.hr {
+    background-color: rgb(220, 102, 11);
+    width: 1400px;
+}
+
+.item {
+    color: aliceblue;
+}
+h2{
+    color: rgb(26, 27, 28);
+}
+/* phần thân */
+.body{
+    display: flex;
+    a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    }
+}
+input{
+    border:     ;    
+}

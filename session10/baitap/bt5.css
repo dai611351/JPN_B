@@ -1,0 +1,33 @@
+.main{
+    background-color: darkcyan;
+    padding: 20px;
+    width: 900px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid silver;
+}
+.p1{
+    display: flex;
+    gap: 20px;
+}
+.p1 button{
+    border: none;
+    width: 70px;
+    border-radius: 30px;
+    background-color: blue; color: white;
+}
+.footermain {
+    text-align: center;
+    margin-top: 20px;
+}
+.ic {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px; 
+}

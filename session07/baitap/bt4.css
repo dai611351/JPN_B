@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.main {
+    position: relative; 
+    width: 400px;
+}
+
+.main img {
+    display: block;
+    width: 400px;
+    height:auto;
+}
+
+.main1 {
+    position: absolute;
+    bottom: 2px;
+    left: 30px;
+    color: rgb(20, 19, 19);
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+.headding{
+    width: 400px;
+    height: auto;
+}

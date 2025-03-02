@@ -1,0 +1,25 @@
+.contaner{
+    text-align: center;
+}
+.contaner .text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 90px;
+}
+.text1{
+    background-color: #ccc;
+    width: 300px;
+    border-radius: 5px;
+}
+.text2{
+    background-color: #ccc;
+    width: 300px;
+    background: orange;
+    border-radius: 5px;
+}
+.text button{
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}

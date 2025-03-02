@@ -1,0 +1,32 @@
+.a {
+    background-color: rgb(136, 225, 225);
+    width: 170px;
+    border-style: none;
+
+    margin-left: 15px;
+
+    border-radius: 5px;
+
+}
+
+.hai {
+    height: 230px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px
+}
+
+.d {
+    text-align: center;
+
+}
+
+.q {
+
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+html {
+    background-color: rgb(233, 216, 216);
+}

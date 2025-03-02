@@ -1,0 +1,30 @@
+.hack, .main_bottom {
+    display: flex;
+    align-items: center;
+}
+  .hack .rigth .meo, .main_bottom .rigth .meo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hack .rigth .meo .class, .main_bottom .rigth .meo .class {
+    background-color: rgb(43, 159, 132);
+    width: 150px;
+    height: 70px;
+    margin: 2px 2px 5px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.hack .left, .main_bottom .left {
+  width: 300px;
+  height: 146px;
+  margin: 2px 2px 5px 2px;
+  background-color: rgb(125, 90, 160);
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+}

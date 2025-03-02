@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.nen {
+    background-color: rgb(32, 88, 185);
+    padding: 10px
+}
+
+.phong {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+}
+
+.boder {
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+img {
+    vertical-align: middle;
+}
