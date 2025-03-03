@@ -1,8 +1,8 @@
 
 let username = prompt("Mời bạn nhập tên:");
-if (username === "ADMIN") {
+if (username === "đại") {
     let password = prompt("Mời bạn nhập mật khẩu:");
-    if (password === "TheMaster") {
+    if (password === "đúng") {
         document.write("0");
     } else if (password === null || password === "") {
         document.write("Cancelled");
