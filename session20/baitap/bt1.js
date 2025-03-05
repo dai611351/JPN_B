@@ -1,6 +1,6 @@
 let n = +prompt("nhập số nguyên");
 let number = 0;
-if(n>0 && Number.isInteger){
+if(n>0 && Number.isInteger(n)){
     for(let i=0; i<=n;i++ ){
         number+=i;
     }
