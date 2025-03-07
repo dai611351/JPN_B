@@ -1,5 +1,9 @@
-let arr = [3, 1, 2, 2, 3, 4, 4, 4, 2, 3];
-let uniqueArr = [...new Set(arr)];
-uniqueArr.sort((a, b) => a - b);
+let num = [2,4,9,6,3,1,];
+for ( let i=0;i<num.length-1;i++){
 
-console.log("Mảng sau khi loại bỏ phần tử trùng nhau và sắp xếp tăng dần:", uniqueArr);
+    for(let j=1;j<num.length;j++){
+        if(num[]>num[j]){
+            
+        }
+    }
+}
