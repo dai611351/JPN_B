@@ -8,7 +8,7 @@ function showMenu() {
     console.log("5. Xóa phần tử");
     console.log("6. Thoát");
 }
-
+    
 while (true) {
     showMenu();
     let choice = parseInt(prompt("Lựa chọn của bạn: "));
