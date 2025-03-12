@@ -17,5 +17,7 @@ function kiemtraSonguyen(number){
 
 }
 kiemtraSonguyen(17);
+kiemtraSonguyen(5);
+
 kiemtraSonguyen(6);
 kiemtraSonguyen("test");

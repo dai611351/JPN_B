@@ -11,7 +11,7 @@ function checkNumber(array) {
         }
     }
    if (arrayNew.length > 0) {
-        console.log(arrayNew);
+        console.log(arrayNew);  
     } else {
         console.log("Không có số chẵn nào");
     }
