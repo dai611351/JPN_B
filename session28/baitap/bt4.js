@@ -1,8 +1,9 @@
 let rectangle = {
-    width: 10,
+    width: 12,
     height: 5,
-    getArea: function () {
-        return this.width * this.height;
+    getArea: function() {
+      return rectangle.width * rectangle.height;
     }
-}
-console.log(rectangle.getArea());
+};
+let r = rectangle.getArea();
+console.log(r);

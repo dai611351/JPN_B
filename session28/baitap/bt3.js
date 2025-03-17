@@ -1,6 +1,9 @@
-let person = {
-    name: "John Doe",
-    age: 25,
-    job: "Developer"
+
+let abc = {
+    title: "JavaScript Basics",
+    author: "John Smith",
+    page: 200,
 };
-console.log(person);
+console.log(abc);
+delete abc.page;
+console.log(abc);
