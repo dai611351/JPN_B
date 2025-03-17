@@ -50,12 +50,14 @@ function searchEmployee(employees) {
     }
 }
 do {
-    console.log("1. Thêm nhân viên mới");
-    console.log("2. Xóa nhân viên theo id");
-    console.log("3. Cập nhật mức lương của nhân viên theo id");
-    console.log("4. Tìm kiếm nhân viên theo tên");
-    console.log("5. Thoát");
     choice = +prompt("Nhập lựa chọn của bạn");
+
+    alert("1. Thêm nhân viên mới");
+    alert("2. Xóa nhân viên theo id");
+    alert("3. Cập nhật mức lương của nhân viên theo id");
+    ale("4. Tìm kiếm nhân viên theo tên");
+    console.log("5. Thoát");
+    
     switch (choice) {
         case 1:
             addEmployee(employees);
@@ -76,4 +78,4 @@ do {
             console.log("Lựa chọn không hợp lệ, vui lòng nhập lại.");
             break;
     }
-} while (choice != 5);
+} while (choice !== 5);

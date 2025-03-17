@@ -1,4 +1,4 @@
-let text1 = ["daiiiii", "dunggg ","duc","chiennnn"];
+let text1 = ["daiiiii", "dunggg ","duc","chiennnn","ajsd","ahj","ajksbjhjvdb","asjdn","san d",];
 let text2 = [];
 let text3 = "shgd"
 function filter(arr){
