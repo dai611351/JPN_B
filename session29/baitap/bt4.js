@@ -8,7 +8,7 @@ let job={
 let jobs=[];
 let choice;
 do{
-  console.log("1. Thêm công việc mới");
+  console.log("1. Thêm công việc mới"); 
   console.log("2. Hiển thị danh sách công việc");
   console.log("3. cập nhập trạng thái công việc theo id");
   console.log("4. Lọc các công việc theo trạng thái hoàn thành, chưa hoàn thành.");
