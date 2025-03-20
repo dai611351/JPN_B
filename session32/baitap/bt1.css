@@ -1,0 +1,14 @@
+
+.btn-random {
+    color: #db2b7d;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+.btn-random:focus {
+  outline: none;
+}
