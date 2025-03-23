@@ -1,50 +1,53 @@
-let job = [];
-
-function render() {
-    let str = "";
-    for (let i = 0; i < job.length; i++) {
-        str += `
-        <div class="job">
-            <p>${job[i].name}</p>
-            <div class="button-container">
-                <button onclick="editJob(${job[i].id})">Sửa</button>
-                <button onclick="deleteJob(${job[i].id})">Xóa</button>
-            </div>
-        </div>
-        `;
-    }
-    document.getElementsByClassName("job-container")[0].innerHTML = str;
-}
-
-function addJob() {
-    let text = document.getElementById("text").value.trim();
-    if (text === "") {
-        alert("Vui lòng nhập công việc!");
-        return;
-    }
-    let newJob = { name: text, id: job.length > 0 ? job[job.length - 1].id + 1 : 1 };
-    job.push(newJob);
-    document.getElementById("text").value = "";
-    render();
-}
-
-function deleteJob(id) {
-    let confirmDelete = confirm("Bạn có chắc chắn muốn xóa?");
-    if (confirmDelete) {
-        job = job.filter(item => item.id !== id);
-        render();
-    }
-}
-
-function editJob(id) {
-    let newName = prompt("Nhập tên công việc mới:");
-    if (newName !== null && newName.trim() !== "") {
-        let index = job.findIndex(item => item.id === id);
-        if (index !== -1) {
-            job[index].name = newName.trim();
-            render();
+// let values=0;
+// function im() {
+//     values+=10;
+//     document.getElementById("progress").value=values;
+//     if(values>=100){
+//         values=100
+//     }
+// }
+// function desc() {
+//     values-=10;
+//     document.getElementById("progress").value=values;
+//     if(values=100){
+//         values=0
+//     } 
+// }
+let number=[1,2,3,4,5,6,7,8,9,10,11,12,13];
+let itemPage=0;
+let pages=Math.ceil(number.length/itemPage);
+let currentPage=1;
+let start=0;
+let end=4;
+function showItem() {
+    let str="";
+    for (let i = 0; i < number.length; i++) {
+        if(i>=start&&i<end){
+            str+=`
+            <li> ${number[i]} </li>
+                 `  
         }
+       
     }
+    document.getElementById("item").innerHTML=str;
+    
 }
+showItem()
 
-render();
+function showPage() {
+    let str="";
+    for (let i = 0; i < pages; i++) {
+       str=` <li> ${i+1} </li>`
+        
+    }
+    document.getElementsByClassName("pages")[0].innerHTML=
+    `
+    <button>hi</button>
+    ${str}
+    <button>lo</button>
+    
+    `
+}
+function (params) {
+    
+}
