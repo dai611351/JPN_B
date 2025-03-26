@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bt1.css">
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="bt1.css">
+  <title>Register</title>
 </head>
 <body>
-    <div class="nen">
-        <h1>Register</h1>
-        <label for="">email</label> <br> 
-        <input id="email" type="text"> <br>
-        <label for="">password</label><br>
-        <input id="password" type="text"> <br>
-        <label for="">confirmPassword</label><br>
-        <input id="confirmPassword" type="text"><br> <br>
-        <button onclick="register()">Register</button>
-
-    </div>
-   
-
-
-
-
-
-
-    <!-- áljghjasd -->
-    <script src="./bt1.js"></script>
+  <div class="container">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="Enter your email address" required />
+      
+      <label>Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required />
+      
+      <label>Confirm Password:</label>
+      <input type="password" id="confirmPassword" placeholder="Confirm your password" required />
+      
+      <button type="submit">Register</button>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script src="./bt1.js"></script>
 </body>
 </html>
