@@ -1,0 +1,18 @@
+.nen{
+    text-align: center;
+
+}
+.red{
+    background-color: red;
+    
+}
+.violet{
+    background-color: violet;
+}
+.yea{
+    background-color: yellow;
+}
+.blu{background-color: blue;}
+button{
+    border-radius:  10px;
+}
